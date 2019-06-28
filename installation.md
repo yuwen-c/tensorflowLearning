@@ -44,6 +44,6 @@ enter this code to see if it runs well:
 2. rename the title
 3. select code or markdown
 4. define s='string', then type s+.+tab, then it will give you all the method
-5. s.capitalize + tab, it will show the document
+5. s.capitalize + shift + tab, it will show the document
 6. insert cell above or below
 

@@ -24,10 +24,12 @@ $ conda env create -f mac_tfdl_env.yml
 for mac:
 - To activate this environment, use
     ```
-    $ conda activate tfdeeplearning```
+    $ conda activate tfdeeplearning
+    ```
 - To deactivate an active environment, use
     ```
-    $ conda deactivate```
+    $ conda deactivate
+    ```
 
 ## 6. jupyter notebook
 - run this line:$ jupyter notebook

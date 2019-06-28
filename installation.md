@@ -16,17 +16,17 @@ FULL_TENSORFLOW_NOTES__AND_DATA.zip
 * in mac is tensorflow-bootcamp master
 - enter it and there is .yml file and some files like this: 00, 01...
 - go to that directory and run this command:
-,,,
+```
 $ conda env create -f mac_tfdl_env.yml 
-,,,
+```
 * for mac
 
 # 5. activate it: (go to a virtual environment)
 * for mac
 - To activate this environment, use
-    $ conda activate tfdeeplearning
+    ```$ conda activate tfdeeplearning```
 - To deactivate an active environment, use
-    $ conda deactivate
+    ```$ conda deactivate```
 
 # 6. jupyter notebook
 - run this line:$ jupyter notebook
@@ -35,11 +35,13 @@ if not: copy paste the url and token to the browser.
 
 - open a new file (choose python3)
 - enter this code to see if it runs well:
- import tensorflow as tf
+```
+import tensorflow as tf
  hello= tf.constant("hello world")
  sess=tf.Session()
  print(sess.run(hello))
-=>b'hello world'
+ ```
+ > b'hello world'
 
 # 7. something about jupyter notebook
 - view > toggle header, toggle toolbar

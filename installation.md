@@ -30,3 +30,20 @@ To deactivate an active environment, use
 run this line:$ jupyter notebook
 pop over to a browser: jupyter
 if not: copy paste the url and token to the browser.
+
+open a new file (choose python3)
+enter this code to see if it runs well:
+ import tensorflow as tf
+ hello= tf.constant("hello world")
+ sess=tf.Session()
+ print(sess.run(hello))
+=>b'hello world'
+
+# 7. something about jupyter notebook
+1. view > toggle header, toggle toolbar
+2. rename the title
+3. select code or markdown
+4. define s='string', then type s+.+tab, then it will give you all the method
+5. s.capitalize + tab, it will show the document
+6. insert cell above or below
+

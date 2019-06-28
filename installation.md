@@ -7,22 +7,21 @@ FULL_TENSORFLOW_NOTES__AND_DATA.zip
 
 ## 3. download from: anaconda.com/download
 - choose Windows, macOs, or Linux system
-* I choose macOs, python 3.7, graphical installation
+    - I choose macOs, python 3.7, graphical installation
 - for Windows user, mark "add ANACONDA to my path environment variable"
 
 ## 4. create environment file and activate it:
 - then use cmd/ terminal to restore the environment files
 - make sure you have alredy unzipped the tensorflow-bootcamp
-* in mac is tensorflow-bootcamp master
+    - in mac is tensorflow-bootcamp master
 - enter it and there is .yml file and some files like this: 00, 01...
-- go to that directory and run this command:
+- go to that directory and run this command: (for mac)
 ```
 $ conda env create -f mac_tfdl_env.yml 
 ```
-* for mac
 
 ## 5. activate it: (go to a virtual environment)
-* for mac
+for mac:
 - To activate this environment, use
     ```
     $ conda activate tfdeeplearning```

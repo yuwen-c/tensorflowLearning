@@ -1,23 +1,25 @@
 # 1. download data:
-Resources for this lecture
+- Resources for this lecture
 FULL_TENSORFLOW_NOTES__AND_DATA.zip
 
 # 2. for macOS and Linux user: download the alternative .yml files,
 otherwise there will be a error message.
 
 # 3. download from: anaconda.com/download
-choose Windows, macOs, or Linux system
-*I choose macOs, python 3.7, graphical installation
-for Windows user, mark "add ANACONDA to my path environment variable"
+- choose Windows, macOs, or Linux system
+* I choose macOs, python 3.7, graphical installation
+- for Windows user, mark "add ANACONDA to my path environment variable"
 
 # 4. create environment file and activate it:
-then use cmd/ terminal to restore the environment files
-make sure you have alredy unzipped the tensorflow-bootcamp
-*in mac is tensorflow-bootcamp master
-enter it and there is .yml file and some files like this: 00, 01...
-go to that directory and run this command:
+- then use cmd/ terminal to restore the environment files
+- make sure you have alredy unzipped the tensorflow-bootcamp
+* in mac is tensorflow-bootcamp master
+- enter it and there is .yml file and some files like this: 00, 01...
+- go to that directory and run this command:
+'''
 $ conda env create -f mac_tfdl_env.yml 
-*for mac
+'''
+* for mac
 
 # 5. activate it: (go to a virtual environment)
 * for mac

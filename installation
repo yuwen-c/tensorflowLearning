@@ -6,12 +6,11 @@ FULL_TENSORFLOW_NOTES__AND_DATA.zip
 otherwise there will be a error message.
 
 3. download from: anaconda.com/download
-
-1) choose Windows, macOs, or Linux system
+choose Windows, macOs, or Linux system
 *I choose macOs, python 3.7, graphical installation
 for Windows user, mark "add ANACONDA to my path environment variable"
 
-2) create environment file and activate it:
+4. create environment file and activate it:
 then use cmd/ terminal to restore the environment files
 make sure you have alredy unzipped the tensorflow-bootcamp
 *in mac is tensorflow-bootcamp master
@@ -20,7 +19,7 @@ go to that directory and run this command:
 $ conda env create -f mac_tfdl_env.yml 
 *for mac
 
-3) activate it: (go to a virtual environment)
+5. activate it: (go to a virtual environment)
 * for mac
 # To activate this environment, use
 #
@@ -30,6 +29,7 @@ $ conda env create -f mac_tfdl_env.yml
 #
 #     $ conda deactivate
 
-4)$ jupyter notebook
+6. jupyter notebook
+run this line:$ jupyter notebook
 pop over to a browser: jupyter
-if not: copy paste the path
+if not: copy paste the url and token to the browser.

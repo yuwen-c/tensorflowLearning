@@ -10,5 +10,9 @@
       > categorical data > classification problem
     - feature, label, task
   - unsupervised
+    - No label
+    - task: cluster
+    - interpret: up to the scientist > domain knowledge   
   - reinforcement
+    - trial and error to yield the greatest reward
   

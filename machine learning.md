@@ -6,6 +6,7 @@
   - supervised
     - labeled data
     > continuous data > regression problem
+    
     > categorical data > classification problem
     - feature, label, task
   - unsupervised

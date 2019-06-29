@@ -5,9 +5,9 @@
 - three types:
   - supervised
     - labeled data
-    > continuous data > regression problem
+      > continuous data > regression problem
     
-    > categorical data > classification problem
+      > categorical data > classification problem
     - feature, label, task
   - unsupervised
   - reinforcement

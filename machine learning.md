@@ -9,10 +9,22 @@
     
       > categorical data > classification problem
     - feature, label, task
+    - process:
+      - data acquire
+      - data cleaning (time consuming)
+      - split to:
+        > training set
+        > testing set 30%
+      - train model
+      - evaluate model
+      - adjust parameter
   - unsupervised
     - No label
     - task: cluster
     - interpret: up to the scientist > domain knowledge   
+    - only traning set
   - reinforcement
     - trial and error to yield the greatest reward
+ - hold out set, the thrid set
+   to get the idea how well your model runs, a final report
   

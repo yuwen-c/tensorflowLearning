@@ -26,5 +26,6 @@
   - reinforcement
     - trial and error to yield the greatest reward
  - hold out set, the thrid set
-   to get the idea how well your model runs, a final report
+   to get the idea how well your model runs, a final report.
+   w/o adjust parameter after that.
   
